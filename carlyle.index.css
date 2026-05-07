@@ -10520,6 +10520,6 @@ html {
         width: auto !important;
         height: auto !important;
         max-height: 50px !important;
-        max-width: 100% !important;
+        width: auto !important;
     }
 }
