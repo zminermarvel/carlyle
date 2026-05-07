@@ -10518,8 +10518,6 @@ html {
     .header-logo {
         display: block !important;
         width: auto !important;
-        height: auto !important;
         max-height: 50px !important;
-        width: auto !important;
     }
 }
