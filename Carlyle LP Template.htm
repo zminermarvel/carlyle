@@ -130,7 +130,6 @@
         width: 100% !important;
         border-radius: .3rem;
         padding: 0px !important;
-        padding-top:50px !important;
     }
     .mktoForm .mktoButtonWrap .mktoButton {
         margin: 0 auto !important;
@@ -380,7 +379,7 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-<script type="text/javascript" src="http://zap2.marvelmarketers.com/rs/979-GWU-366/images/mm.index.js"></script>
+<script type="text/javascript" src="https://zap2.marvelmarketers.com/rs/979-GWU-366/images/mm.index.js"></script>
   <script>
  /*!
  * jQuery lightweight plugin boilerplate
@@ -422,12 +421,15 @@
             // and this.options
             // you can add more functions like the one below and
             // call them like so: this.yourOtherFunction(this.element, this.options).
-            console(this.yourOtherFunction(this.element, this.options));
+            // console(this.yourOtherFunction(this.element, this.options));
+              // disabled since plugin not in use
         },
 
         yourOtherFunction: function(el, options) {
-            jQuery.json(options.menuUrl, "", function(data) {
-                return  data;
+            // jQuery.json(options.menuUrl, "", function(data) {
+                // return  data;
+                  // disabled since plugin not in use
+            return null;
             });
         }
     };
