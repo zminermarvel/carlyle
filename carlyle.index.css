@@ -10513,4 +10513,13 @@ html {
     .flipdown .rotor-bottom, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor:after {
         height: 25px
     }
+
+    #secondary-banner-logo,
+    .header-logo {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        max-height: 50px !important;
+        max-width: 100% !important;
+    }
 }
