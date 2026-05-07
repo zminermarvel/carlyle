@@ -84,7 +84,8 @@
     .mktoImg.mktoGen { display: inherit!important; } 
     .header-logo {
       display: block !important;
-      width: 150px !important;
+        max-width: 150px;
+        height: auto;
     }
     @media only screen and (max-width: 577px) { 
       .media-image {
@@ -279,7 +280,7 @@
               <div class="col-12 col-lg-6 mb-3">
                 <div class="text-center text-lg-left">
                     <a href="${logo-href}" title="${logo-title}" target="_top">
-                      <img class="header-logo mktoImg d-inline-block" height="50" id="secondary-banner-logo" mktoName="Banner Logo" src="http://via.placeholder.com/150x50.png" alt="{logo-alt}">
+                      <img class="header-logo mktoImg d-inline-block" id="secondary-banner-logo" mktoName="Banner Logo" src="http://via.placeholder.com/150x50.png" alt="{logo-alt}">
                     </a>
                 </div>
                  
